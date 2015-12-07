@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:tc="http://schemas.android.com/apk/res/com.dm"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/cst_file_framelayout"
+    android:orientation="vertical" >
+
+  
+
+    <LinearLayout
+        android:id="@+id/cst_file_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/cst_file_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="#00000000"
+            android:divider="#2A4562"
+            android:dividerHeight="1px"
+            android:drawSelectorOnTop="false"
+            android:listSelector="#253853" 
+            android:background="@color/white"
+            android:visibility="visible">
+        </ListView>
+    </LinearLayout>
+       
+
+</FrameLayout>

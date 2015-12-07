@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item android:id="@+id/data_backup"
+          android:icon="@drawable/pop_data_backup"
+          android:title="@string/str_data_backup"
+          android:showAsAction="ifRoom|withText"
+          android:visible="true"/>  	  
+    <item android:id="@+id/data_import" 
+           android:visible="true"
+           android:icon="@drawable/pop_data_import"
+           android:showAsAction="ifRoom|withText"
+          android:title="@string/str_data_import"/>
+    <item android:id="@+id/data_clean" 
+         	android:visible="true"
+         	 android:showAsAction="ifRoom|withText"
+         	android:icon="@drawable/pop_data_clean"
+          android:title="@string/str_data_clean"/>
+    <item android:id="@+id/exit" 
+          android:visible="true"
+          android:icon="@drawable/pop_data_cancel"
+          android:showAsAction="ifRoom|withText"
+          android:title="@string/popumenu_exit"/>
+   
+</menu>

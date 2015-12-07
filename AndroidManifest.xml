@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dm"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.dm.IndexActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.BackgroundTranslucent"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>             
+            
+        </activity>
+        <activity
+            android:name="com.dm.MainActivty"
+            android:label="@string/app_name"
+            android:theme="@style/mystyle" 
+            android:launchMode="singleTask" >
+            <intent-filter>
+				<action android:name="android.intent.action.SEARCH"  />
+			</intent-filter>
+			
+            <meta-data 
+                android:name="android.app.searchable"
+				android:resource="@xml/searchable" />    
+            
+        </activity>
+        <activity
+            android:name="com.dm.AddCustomerActivity"
+            android:label="@string/app_name"
+            android:theme="@style/mystyle" >
+            
+        </activity>
+             <activity
+            android:name="com.dm.FileSelect"
+            android:label="@string/app_name"
+            android:theme="@style/mystyle" >
+            
+        </activity>
+        <activity
+            android:name="com.dm.datamanager.FileSelect"
+            android:label="@string/app_name"
+            android:theme="@style/mystyle" >
+            
+        </activity>
+    </application>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+</manifest>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/welcome_bg" >
+    
+    <ImageView
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:scaleType="centerCrop"
+    	android:src="@drawable/welcome_bg"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        >
+       <ImageView        android:layout_width="250dip"
+    	android:layout_height="250dip"
+    	android:id="@+id/index_animation"
+    	android:layout_gravity="center"
+    	
+    	android:paddingBottom="10dip"
+        />
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Data Manager v1.0"
+            android:textStyle="italic" 
+            android:paddingBottom="50dip"
+            android:textSize="23sp"
+            android:textColor="#0099cc" />	        
+              
+    </LinearLayout>
+    
+   
+</FrameLayout>

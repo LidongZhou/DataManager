@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, SearchActivty!</string>
+	<string name="app_name">Notebook</string>
+	<string name="search_label">xxxs</string>
+	<string name="settings_description">Definitions of words</string>
+	<string name="search_invoke">sss</string>
+	<string name="search_query_results">ssdsadws</string>
+	<string name="title_name">Notebook</string>
+	<string name="str_data_backup">Excel备份</string>
+	<string name="str_data_import">Excel导入</string>
+	<string name="str_data_clean">数据清除</string>
+	<string name="popumenu_exit">退出</string>
+ 	<drawable name="pressed_background">#000000</drawable>
+</resources>
